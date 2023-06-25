@@ -56,8 +56,8 @@ endif()
 
 find_package(Boost REQUIRED COMPONENTS program_options system thread random)
 
-find_package(msgpack REQUIRED)
-find_package(websocketpp REQUIRED)
+find_package(Msgpack REQUIRED)
+find_package(Websocketpp REQUIRED)
 
 MESSAGE( STATUS "AUTOBAHN_BUILD_EXAMPLES:  " ${AUTOBAHN_BUILD_EXAMPLES} )
 MESSAGE( STATUS "AUTOBAHN_USE_LIBCXX:      " ${AUTOBAHN_USE_LIBCXX} )
